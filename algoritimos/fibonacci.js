@@ -20,5 +20,5 @@ function fibonacci(n){
     
     return fibo
 }
-
+//chamando a função
 console.log(fibonacci(6))

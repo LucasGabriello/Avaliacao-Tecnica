@@ -22,7 +22,7 @@ function classificador(pessoa){
     });
     return pessoa
 }
-
+//criando o Array de objetos
 var pessoa = [
     {
         souEu:false,
@@ -51,9 +51,10 @@ var pessoa = [
     }
 ];
 
+//chamando a função
 classificador(pessoa);
 
-
-for(var i=0 ; i<5 ; i++){
+//mostra objeto ordenado
+for(var i=0 ; i<pessoa.length ; i++){
     console.log(pessoa[i]);
 }
