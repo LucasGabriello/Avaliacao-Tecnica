@@ -2,11 +2,11 @@ function fibonacci(n){
     var fibo = [0]
     if(n==1){return fibo}
     if(n==2){
-        fibo.push(1) 
+        fibo.push(1)
         return fibo
     }
     if(n>=3){
-        fibo.push(1) 
+        fibo.push(1)
         let x = 0
         let y = 1
         let fib = n

@@ -52,9 +52,9 @@ var pessoa = [
 ];
 
 //chamando a função
-classificador(pessoa);
+classificador(pessoa)
 
 //mostra objeto ordenado
 for(var i=0 ; i<pessoa.length ; i++){
-    console.log(pessoa[i]);
+    console.log(pessoa[i])
 }

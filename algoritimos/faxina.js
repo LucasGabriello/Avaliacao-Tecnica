@@ -1,10 +1,10 @@
 function teste(obj) {
     for (var i in obj) {
       if (obj[i] == null) {
-        delete obj[i];
+        delete obj[i]
       }
     }
-    return obj;
+    return obj
   }
 
 //criando o objeto
